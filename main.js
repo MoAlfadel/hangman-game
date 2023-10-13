@@ -143,7 +143,7 @@ let popupDisplay = (result) => {
     let text;
     if (result) {
         text = document.createTextNode(
-            `Game Over , You wing , the Word is ${theWord}`
+            `Game Over , You win, the Word is ${theWord}`
         );
     } else {
         text = document.createTextNode(
