@@ -34,7 +34,6 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-
 }
 .letter-box {
     background-color: #036664;
@@ -49,9 +48,14 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-.letters-container.center {
+.letters-container.large {
+    gap: 15px;
 }
-
+.letters-container.large .letter-box {
+    width: 30px;
+    height: 30px;
+    font-size: 1.3rem;
+}
 /* ! end  Global eLements */
 .game-info {
     display: flex;
@@ -80,7 +84,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-
+    margin: 20px 0;
 }
 
 .row .hangman-draw {
